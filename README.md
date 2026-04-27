@@ -20,7 +20,7 @@ Aplicação de gerenciamento de tarefas desenvolvida com foco em lógica de prog
 (adicione um print do projeto aqui)
 
 ## Deploy
-(link do GitHub Pages)
+https://alinedantass.github.io/smart-task-list/
 
 ## Objetivo
 Projeto desenvolvido por Aline Dantas, para praticar manipulação de DOM, gerenciamento de estado e construção de interfaces interativas.
