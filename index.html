@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Atividades</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <button id="themeToggle" class="theme-btn">🌙</button>
+    <h1>📝 Lista de Atividades</h1>
+
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Digite uma tarefa...">
+      <button onclick="addTask()">Adicionar</button>
+    </div>
+
+    <div class="filters">
+      <button onclick="filterTasks('all', this)" class="active">Todas</button>
+      <button onclick="filterTasks('pending', this)">Pendentes</button>
+      <button onclick="filterTasks('completed', this)">Concluídas</button>
+    </div>
+
+    <div class="info">
+      <span id="taskCounter">0 tarefas</span>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <p id="message" class="hidden"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
