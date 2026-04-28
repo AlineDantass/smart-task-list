@@ -17,7 +17,7 @@ Aplicação de gerenciamento de tarefas desenvolvida com foco em lógica de prog
 - JavaScript
 
 ## Preview
-![Preview do projeto](assets/preview.png)
+![Preview do projeto](preview.png)
 
 ## Deploy
 https://alinedantass.github.io/smart-task-list/
